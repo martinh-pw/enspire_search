@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+
+<h2 id="options_search_h">Search options</h2>
+<div id="options_search_d" class="section_div">
+    <p>
+        <label>
+            <input type="checkbox" id="search_am" class="floatleft">
+            <div class="label">Include AM data when searching from your browser bar (lead, proposal, SOP)</div>
+        </label>
+        <label>
+            <input type="checkbox" id="search_task" class="floatleft">
+            <div class="label">Include Task data when searching from your browser bar (project task, project subtask, project task comment)</div>
+        </label>
+        <label>
+            <input type="checkbox" id="search_fin" class="floatleft">
+            <div class="label">Include Finance data when searching from your browser bar (Project budget line, invoice, invoice line)</div>
+        </label>
+    </p>
+</div>
+
+<p>
+    <div id="status"></div>
+    <button id="save">Save</button>
+</p>
+
+<script src="options.js"></script>
+
+</body>
+</html>
